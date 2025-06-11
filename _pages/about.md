@@ -13,4 +13,4 @@ redirect_from:
 
 I received my Ph.D. in economics from Cornell University in August 2024. My research interests are in labor economics, public finance, and economic demography.
 
-I am a Senior Economist at Compass Lexecon.
+I am an Associate at Econic Partners.
