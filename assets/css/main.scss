@@ -60,10 +60,10 @@ a:focus {
 
 .sidebar .author__name,
 .sidebar .author__bio,
-.sidebar .author__content,
-.sidebar .author__urls-wrapper,
-.sidebar .author__urls,
-.sidebar .author__urls * {
+.sidebar .author__location,
+.sidebar .author__urls li,
+.sidebar .author__urls a,
+.sidebar .author__urls span {
   font-family: "Times New Roman", Times, serif !important;
   color: #000 !important;
 }
