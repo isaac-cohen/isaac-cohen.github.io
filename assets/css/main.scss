@@ -41,22 +41,16 @@
 @import "print";
 
 
-html, body {
-  font-family: "Times New Roman", Times, serif;
-  color: #000;
-}
-
+body,
+h1, h2, h3, h4, h5, h6,
+p, li, a, span,
 button, input, textarea, select {
   font-family: "Times New Roman", Times, serif;
   color: #000;
 }
 
-a:link {
+a:link, a:visited {
   color: #0000EE;
-}
-
-a:visited {
-  color: #551A8B;
 }
 
 a:hover,
