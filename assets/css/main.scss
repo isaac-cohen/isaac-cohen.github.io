@@ -39,3 +39,27 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+html, body {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+
+button, input, textarea, select {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+}
+
+a:link {
+  color: #0000EE;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
