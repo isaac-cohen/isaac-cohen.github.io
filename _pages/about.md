@@ -30,7 +30,7 @@ I am an Associate at Econic Partners.
 &nbsp;&nbsp;&nbsp;&nbsp; with [Andrew Johnston](https://sites.google.com/site/andrewjohnstoneconomics/)
 
 **Insuring Large Risks: The Role of Preferences and Consideration**  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and Yujie Feng 
+&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and Yujie Feng  
 &nbsp;&nbsp;&nbsp;&nbsp; *Under Review*
 
 **Task Specialization, Family Formation, and the Gender Earnings Gap: Evidence from US Physicians**
