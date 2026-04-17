@@ -22,15 +22,15 @@ I am an Associate at Econic Partners.
 &nbsp;&nbsp;&nbsp;&nbsp; with Francine Blau, [Matthew Comey](https://www.matthewcomey.com/), Lawrence Kahn, and [Nikolai Boboshko](https://nboboshko.github.io/)  
 &nbsp;&nbsp;&nbsp;&nbsp; Conditionally Accepted, *ILR Review*
 
+[**Insuring Large Risks: The Role of Preferences and Consideration**](https://barseghyan.economics.cornell.edu/docs/barseghyan_et_al_2026.pdf)  
+&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and Yujie Feng  
+&nbsp;&nbsp;&nbsp;&nbsp; *Under Review*
+
 <br>
 
 # Works in Progress
 
 **Demand for Social Security: Evidence from Patchwork Coverage**  
 &nbsp;&nbsp;&nbsp;&nbsp; with [Andrew Johnston](https://sites.google.com/site/andrewjohnstoneconomics/)
-
-**Insuring Large Risks: The Role of Preferences and Consideration**  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and Yujie Feng  
-&nbsp;&nbsp;&nbsp;&nbsp; *Under Review*
 
 **Task Specialization, Family Formation, and the Gender Earnings Gap: Evidence from US Physicians**
