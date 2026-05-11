@@ -23,7 +23,7 @@ I am an Associate at Econic Partners.
 &nbsp;&nbsp;&nbsp;&nbsp; Forthcoming, *ILR Review*
 
 [**Insuring Large Risks: The Role of Preferences and Consideration**](https://barseghyan.economics.cornell.edu/docs/barseghyan_et_al_2026.pdf)  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and [Yujie Feng](https://yujiefeng.wordpress.com/) 
+&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and [Yujie Feng](https://yujiefeng.wordpress.com/)  
 &nbsp;&nbsp;&nbsp;&nbsp; *Under Review*
 
 <br>
