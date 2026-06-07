@@ -76,3 +76,10 @@ a:focus {
   font-family: "Font Awesome 5 Brands" !important;
 }
 
+/* Footer copyright: the theme renders this <div> in sans-serif while the <a>
+   links inherit TNR, leaving the line mismatched. Target the div so the plain
+   text matches the links. */
+.page__footer-copyright {
+  font-family: "Times New Roman", Times, serif;
+}
+
