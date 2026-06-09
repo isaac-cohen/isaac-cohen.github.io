@@ -21,7 +21,7 @@ I am an Associate at Econic Partners.
 [**The Minimum Wage and Inequality Between Groups**](https://www.nber.org/papers/w31725)  
 &nbsp;&nbsp;&nbsp;&nbsp; with [Francine Blau](https://www.ilr.cornell.edu/people/francine-d-blau), [Matthew Comey](https://www.matthewcomey.com/), [Lawrence Kahn](https://www.ilr.cornell.edu/people/lawrence-kahn), and [Nikolai Boboshko](https://nboboshko.github.io/)  
 &nbsp;&nbsp;&nbsp;&nbsp; Forthcoming, *ILR Review*  
-&nbsp;&nbsp;&nbsp;&nbsp; [Online Appendix](/files/mwbg_online_appendix.pdf)
+&nbsp;&nbsp;&nbsp;&nbsp; [Online Appendix](/files/mwbg_online_appendix.pdf) | [Replication Package](https://doi.org/10.3886/E249831V1)
 
 [**Insuring Large Risks: The Role of Preferences and Consideration**](https://barseghyan.economics.cornell.edu/docs/barseghyan_et_al_2026.pdf)  
 &nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and [Yujie Feng](https://yujiefeng.wordpress.com/)  
