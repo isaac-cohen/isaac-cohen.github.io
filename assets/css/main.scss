@@ -83,5 +83,26 @@ a:focus {
   font-family: "Times New Roman", Times, serif;
 }
 
+/* No "Follow" button: always show the author links inline (the theme's
+   desktop presentation) instead of collapsing them into a popup on mobile. */
+.author__urls-wrapper button {
+  display: none;
+}
+
+.author__urls {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.author__urls:before,
+.author__urls:after {
+  display: none;
+}
+
 @import "dark";
 

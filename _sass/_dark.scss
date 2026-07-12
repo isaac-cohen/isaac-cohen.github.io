@@ -100,34 +100,8 @@ html.dark-mode .sidebar .author__urls span {
   color: #e8e6e3 !important;
 }
 
-html.dark-mode .author__urls {
-  background: #1a1a1a;
-  border-color: #3a3a3a;
-
-  /* The theme only styles this as a popup box below $large (925px); on
-     desktop it is a transparent inline list, so remove the box there. */
-  @media (min-width: 57.8125em) {
-    background: transparent;
-    border: 0;
-  }
-}
-
-html.dark-mode .author__urls:before {
-  border-color: #3a3a3a transparent;
-}
-
-html.dark-mode .author__urls:after {
-  border-color: #1a1a1a transparent;
-}
-
 html.dark-mode .author__avatar img {
   border-color: #3a3a3a;
-}
-
-html.dark-mode .btn--inverse {
-  background-color: #1e1e1e;
-  color: #e8e6e3 !important;
-  border-color: #3a3a3a !important;
 }
 
 /*
