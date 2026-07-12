@@ -100,6 +100,12 @@ html.dark-mode .sidebar .author__urls span {
   color: #e8e6e3 !important;
 }
 
+/* The theme paints old-style .fa icons (e.g. the location map marker)
+   black via .social-icons .fa; recolor them like the surrounding text. */
+html.dark-mode .social-icons .fa {
+  color: #e8e6e3;
+}
+
 html.dark-mode .author__avatar img {
   border-color: #3a3a3a;
 }
