@@ -129,5 +129,13 @@ a:focus {
   font-size: 25px;
 }
 
+/* Breathing room between the photo/name row and the links list on mobile;
+   desktop already gets spacing from the bio's bottom margin. */
+@media (max-width: 57.8125em) {
+  .author__urls-wrapper {
+    margin-top: 0.75em;
+  }
+}
+
 @import "dark";
 
