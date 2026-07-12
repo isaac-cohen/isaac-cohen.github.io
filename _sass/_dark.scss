@@ -1,0 +1,356 @@
+/* ==========================================================================
+   DARK MODE
+   ========================================================================== */
+
+/*
+   Layout support for the theme-toggle button.
+   These rules are NOT theme-scoped: the button and its position must exist
+   in both light and dark mode.
+   ========================================================================== */
+
+.masthead__inner-wrap {
+  position: relative;
+}
+
+/* Leave room on the right of the nav so the greedy-nav script tucks links
+   into the overflow menu before they reach the toggle button. */
+.masthead .greedy-nav {
+  padding-right: 2.5em;
+}
+
+#theme-toggle {
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  transform: translateY(-50%);
+  z-index: 20;
+  background: none;
+  border: 0;
+  padding: 0.25em;
+  margin: 0;
+  cursor: pointer;
+  font-size: 1.25em;
+  line-height: 1;
+  color: #000;
+}
+
+#theme-toggle:hover {
+  color: #f2b01e;
+}
+
+/*
+   1. Page background
+   ========================================================================== */
+
+html.dark-mode {
+  color-scheme: dark;
+  background-color: #121212;
+}
+
+html.dark-mode body {
+  background-color: #121212;
+}
+
+/*
+   2. Global text color
+   ========================================================================== */
+
+html.dark-mode {
+  body,
+  h1, h2, h3, h4, h5, h6,
+  p, li, a, span,
+  button, input, textarea, select {
+    color: #e8e6e3;
+  }
+}
+
+/* Theme toggle button colors must come after the global text override above
+   so they win over the generic "button" color rule. */
+html.dark-mode #theme-toggle {
+  color: #ffd75e;
+}
+
+html.dark-mode #theme-toggle:hover {
+  color: #fff3c4;
+}
+
+/*
+   3. Links
+   ========================================================================== */
+
+/* Mirror light mode: visited links match unvisited, and hover/focus
+   keep the same color (underline only, from the base rule). */
+html.dark-mode a:link,
+html.dark-mode a:visited,
+html.dark-mode a:hover,
+html.dark-mode a:focus {
+  color: #8ab4f8;
+}
+
+/*
+   4. Sidebar
+   ========================================================================== */
+
+html.dark-mode .sidebar .author__name,
+html.dark-mode .sidebar .author__bio,
+html.dark-mode .sidebar .author__location,
+html.dark-mode .sidebar .author__urls li,
+html.dark-mode .sidebar .author__urls a,
+html.dark-mode .sidebar .author__urls span {
+  color: #e8e6e3 !important;
+}
+
+html.dark-mode .author__urls {
+  background: #1a1a1a;
+  border-color: #3a3a3a;
+}
+
+html.dark-mode .author__urls:before {
+  border-color: #3a3a3a transparent;
+}
+
+html.dark-mode .author__urls:after {
+  border-color: #1a1a1a transparent;
+}
+
+html.dark-mode .author__avatar img {
+  border-color: #3a3a3a;
+}
+
+html.dark-mode .btn--inverse {
+  background-color: #1e1e1e;
+  color: #e8e6e3 !important;
+  border-color: #3a3a3a !important;
+}
+
+/*
+   5. Masthead & navigation
+   ========================================================================== */
+
+html.dark-mode .masthead {
+  background-color: #1a1a1a;
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .greedy-nav {
+  background: #1a1a1a;
+}
+
+html.dark-mode .greedy-nav a {
+  color: #e8e6e3;
+}
+
+html.dark-mode .greedy-nav a:hover {
+  color: #e8e6e3;
+}
+
+html.dark-mode .greedy-nav button {
+  background-color: #3a3a3a;
+}
+
+html.dark-mode .navicon,
+html.dark-mode .navicon:before,
+html.dark-mode .navicon:after {
+  background: #e8e6e3;
+}
+
+html.dark-mode .greedy-nav .hidden-links {
+  background: #1a1a1a;
+  border-color: #3a3a3a;
+}
+
+html.dark-mode .greedy-nav .hidden-links a:hover {
+  color: #e8e6e3;
+  background: #3a3a3a;
+}
+
+html.dark-mode .greedy-nav .hidden-links li {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .greedy-nav .hidden-links:before {
+  border-color: #3a3a3a transparent;
+}
+
+html.dark-mode .greedy-nav .hidden-links:after {
+  border-color: #1a1a1a transparent;
+}
+
+/*
+   6. Footer
+   ========================================================================== */
+
+html.dark-mode .page__footer {
+  background-color: #1a1a1a;
+  border-top-color: #3a3a3a;
+  color: #e8e6e3;
+}
+
+html.dark-mode .page__footer .fas,
+html.dark-mode .page__footer .fab,
+html.dark-mode .page__footer .far,
+html.dark-mode .page__footer .fal {
+  color: #a8a29b;
+}
+
+html.dark-mode .page__footer-copyright {
+  color: #e8e6e3;
+}
+
+/*
+   7. Code / syntax highlighting
+   ========================================================================== */
+
+html.dark-mode code,
+html.dark-mode pre {
+  background-color: #1e1e1e;
+}
+
+html.dark-mode p > code,
+html.dark-mode a > code,
+html.dark-mode li > code,
+html.dark-mode figcaption > code,
+html.dark-mode td > code {
+  background-color: #1e1e1e;
+  border-color: #3a3a3a;
+  color: #e8e6e3;
+}
+
+html.dark-mode div.highlighter-rouge,
+html.dark-mode figure.highlight {
+  background-color: #1e1e1e;
+  border-color: #3a3a3a;
+}
+
+html.dark-mode div.highlighter-rouge:before,
+html.dark-mode figure.highlight:before {
+  background-color: #3a3a3a;
+}
+
+html.dark-mode .highlight {
+  color: #e8e6e3;
+}
+
+/*
+   8. Borders / structural elements / notices
+   ========================================================================== */
+
+html.dark-mode hr {
+  border-top-color: #3a3a3a;
+}
+
+html.dark-mode .page__meta {
+  color: #a8a29b;
+}
+
+html.dark-mode figcaption {
+  color: #a8a29b;
+}
+
+html.dark-mode figcaption a {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode figcaption a:hover {
+  color: #8ab4f8;
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode table {
+  border-color: #3a3a3a;
+}
+
+html.dark-mode thead {
+  background-color: #1e1e1e;
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode th {
+  border-right-color: #3a3a3a;
+}
+
+html.dark-mode td {
+  border-bottom-color: #3a3a3a;
+  border-right-color: #3a3a3a;
+}
+
+html.dark-mode .archive__subtitle {
+  color: #a8a29b;
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .page__content h2 {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .page__share {
+  border-top-color: #3a3a3a;
+}
+
+html.dark-mode .page__comments-title {
+  border-top-color: #3a3a3a;
+}
+
+html.dark-mode .page__comments-form {
+  background: #1e1e1e;
+}
+
+html.dark-mode .comment:not(:last-child) {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .page__related {
+  border-top-color: #3a3a3a;
+}
+
+html.dark-mode .page__content + .pagination,
+html.dark-mode .page__meta + .pagination,
+html.dark-mode .page__share + .pagination,
+html.dark-mode .page__comments + .pagination {
+  border-top-color: #3a3a3a;
+}
+
+html.dark-mode .page__taxonomy-item {
+  border-color: #3a3a3a;
+}
+
+html.dark-mode .toc {
+  background-color: #1e1e1e;
+  border-color: #3a3a3a;
+  color: #a8a29b;
+}
+
+html.dark-mode .toc__menu a {
+  color: #a8a29b;
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark-mode .toc__menu a:hover {
+  color: #a8a29b;
+  background-color: #3a3a3a;
+}
+
+html.dark-mode .notice,
+html.dark-mode .notice--primary,
+html.dark-mode .notice--info,
+html.dark-mode .notice--warning,
+html.dark-mode .notice--success,
+html.dark-mode .notice--danger {
+  background-color: #1e1e1e;
+  color: #e8e6e3;
+}
+
+/*
+   9. Images/avatars — intentionally left untouched (no filters applied).
+   ========================================================================== */
+
+/*
+   10. Form inputs
+   ========================================================================== */
+
+html.dark-mode input,
+html.dark-mode textarea,
+html.dark-mode select {
+  background-color: #1e1e1e;
+  border-color: #3a3a3a;
+}
