@@ -123,5 +123,11 @@ a:focus {
   display: block;
 }
 
+/* Deliberately a standalone value (happens to match the ~25px h1s today)
+   so the name and page headings can be resized independently. */
+.sidebar .author__name {
+  font-size: 25px;
+}
+
 @import "dark";
 
