@@ -110,5 +110,18 @@ a:focus {
   margin-right: 0.3em;
 }
 
+/* The theme makes these links block-level, which breaks the line after the
+   icon now that icons live outside the <a>. */
+.author__urls li a {
+  display: inline-block;
+}
+
+/* On mobile the theme squeezes this wrapper into a table-cell beside the
+   avatar and bio (sized for the old Follow button); stack it below the
+   profile instead so the links are visible at full width. */
+.author__urls-wrapper {
+  display: block;
+}
+
 @import "dark";
 
