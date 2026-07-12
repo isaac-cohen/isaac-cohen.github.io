@@ -104,5 +104,11 @@ a:focus {
   display: none;
 }
 
+/* Sidebar link icons sit outside the <a> (so hover underlines only the
+   text); this margin recreates the gap the in-link space used to provide. */
+.author__urls li i {
+  margin-right: 0.3em;
+}
+
 @import "dark";
 
