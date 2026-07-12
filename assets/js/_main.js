@@ -27,20 +27,16 @@ $(document).ready(function(){
   $(".sticky").Stickyfill();
 
   var stickySideBar = function(){
-    var show = $(".author__urls-wrapper button").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper button").is(":visible");
-    // console.log("has button: " + $(".author__urls-wrapper button").length === 0);
-    // console.log("Window Width: " + windowWidth);
-    // console.log("show: " + show);
-    //old code was if($(window).width() > 1024)
+    // The author links are always visible (the Follow button was removed),
+    // so this only manages the sticky sidebar behavior by window width.
+    var show = $(window).width() > 1024;
     if (show) {
       // fix
       Stickyfill.rebuild();
       Stickyfill.init();
-      $(".author__urls").show();
     } else {
       // unfix
       Stickyfill.stop();
-      $(".author__urls").hide();
     }
   };
 
