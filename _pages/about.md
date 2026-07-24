@@ -16,22 +16,32 @@ I am an Associate at Econic Partners.
 
 <br>
 
+# Papers
+
+[**The Minimum Wage and Inequality Between Groups**](https://journals.sagepub.com/doi/10.1177/00197939261464977)
+
+with [Francine Blau](https://www.ilr.cornell.edu/people/francine-d-blau), [Matthew Comey](https://www.matthewcomey.com/), [Lawrence Kahn](https://www.ilr.cornell.edu/people/lawrence-kahn), and [Nikolai Boboshko](https://nboboshko.github.io/)  
+*ILR Review*  
+[NBER WP](https://www.nber.org/papers/w31725) | [Online Appendix](/files/mwbg_online_appendix.pdf) | [Replication Package](https://doi.org/10.3886/E249831V1)
+{: .paper-details}
+
+<br>
+
 # Working Papers
 
-[**The Minimum Wage and Inequality Between Groups**](https://www.nber.org/papers/w31725)  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Francine Blau](https://www.ilr.cornell.edu/people/francine-d-blau), [Matthew Comey](https://www.matthewcomey.com/), [Lawrence Kahn](https://www.ilr.cornell.edu/people/lawrence-kahn), and [Nikolai Boboshko](https://nboboshko.github.io/)  
-&nbsp;&nbsp;&nbsp;&nbsp; Forthcoming, *ILR Review*  
-&nbsp;&nbsp;&nbsp;&nbsp; [Online Appendix](/files/mwbg_online_appendix.pdf) | [Replication Package](https://doi.org/10.3886/E249831V1)
+[**Insuring Large Risks: The Role of Preferences and Consideration**](https://barseghyan.economics.cornell.edu/docs/barseghyan_et_al_2026.pdf)
 
-[**Insuring Large Risks: The Role of Preferences and Consideration**](https://barseghyan.economics.cornell.edu/docs/barseghyan_et_al_2026.pdf)  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and [Yujie Feng](https://yujiefeng.wordpress.com/)  
-&nbsp;&nbsp;&nbsp;&nbsp; *Under Review*
+with [Levon Barseghyan](https://barseghyan.economics.cornell.edu/) and [Yujie Feng](https://yujiefeng.wordpress.com/)  
+*Under Review*
+{: .paper-details}
 
 <br>
 
 # Works in Progress
 
-**Demand for Social Security: Evidence from Patchwork Coverage**  
-&nbsp;&nbsp;&nbsp;&nbsp; with [Andrew Johnston](https://sites.google.com/site/andrewjohnstoneconomics/)
+**Demand for Social Security: Evidence from Patchwork Coverage**
+
+with [Andrew Johnston](https://sites.google.com/site/andrewjohnstoneconomics/)
+{: .paper-details}
 
 **Task Specialization, Family Formation, and the Gender Earnings Gap: Evidence from US Physicians**
