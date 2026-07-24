@@ -138,9 +138,11 @@ a:focus {
 }
 
 /* Hanging indent for paper detail lines (authors, venue, links) on the About
-   page. The negative top margin collapses against the title paragraph's
-   1.3em bottom margin, leaving ~0.2em so details sit close under the title. */
-.paper-details {
+   page. Scoped under .page__content to outrank the theme's
+   `.page__content p { margin: 0 0 1.3em }`, whose shorthand would otherwise
+   zero out both margins here. The negative top margin cancels most of the
+   title paragraph's bottom margin so details sit ~0.2em under the title. */
+.page__content .paper-details {
   margin-left: 1.5em;
   margin-top: -1.1em;
 }
